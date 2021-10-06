@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA50838D270C68530085AC02 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50838C270C68530085AC02 /* AddPhotoView.swift */; };
+		FA50838F270DB5B90085AC02 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50838E270DB5B90085AC02 /* SegmentedControl + Extension.swift */; };
+		FA508392270E07690085AC02 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA508391270E07690085AC02 /* ListViewController.swift */; };
+		FA508395270E07B40085AC02 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA508394270E07B40085AC02 /* MainTabBarController.swift */; };
+		FA508397270E081A0085AC02 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA508396270E081A0085AC02 /* PeopleViewController.swift */; };
+		FA6E5A8D27071C09005840F9 /* SetupProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E5A8C27071C09005840F9 /* SetupProfileViewController.swift */; };
+		FA79DA7C2702F3F100D55A51 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DA7B2702F3F100D55A51 /* ButtonFormView.swift */; };
+		FA79DA7E270486AB00D55A51 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DA7D270486AB00D55A51 /* StackView + Extension.swift */; };
+		FA79DA802704959000D55A51 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DA7F2704959000D55A51 /* SignUpViewController.swift */; };
+		FA79DA822705C15F00D55A51 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DA812705C15F00D55A51 /* OneLineTextField.swift */; };
+		FAD9A0322705E74D00F6749A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9A0312705E74D00F6749A /* LoginViewController.swift */; };
+		FAEEC0E72701994300C5AEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0E62701994300C5AEF9 /* AppDelegate.swift */; };
+		FAEEC0E92701994300C5AEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0E82701994300C5AEF9 /* SceneDelegate.swift */; };
+		FAEEC0EB2701994300C5AEF9 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0EA2701994300C5AEF9 /* AuthViewController.swift */; };
+		FAEEC0F02701994500C5AEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEEC0EF2701994500C5AEF9 /* Assets.xcassets */; };
+		FAEEC0FB2701BF4300C5AEF9 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0FA2701BF4300C5AEF9 /* UIButton + Extension.swift */; };
+		FAEEC0FD2701D7EF00C5AEF9 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0FC2701D7EE00C5AEF9 /* UIFont + Extension.swift */; };
+		FAEEC0FF2701DBFE00C5AEF9 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC0FE2701DBFE00C5AEF9 /* UIColor + Extension.swift */; };
+		FAEEC1012701EEBE00C5AEF9 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC1002701EEBE00C5AEF9 /* UILabel + Extension.swift */; };
+		FAEEC1032701F0FF00C5AEF9 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEC1022701F0FF00C5AEF9 /* UIImageView + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA50838C270C68530085AC02 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		FA50838E270DB5B90085AC02 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
+		FA508391270E07690085AC02 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FA508394270E07B40085AC02 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FA508396270E081A0085AC02 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		FA6E5A8C27071C09005840F9 /* SetupProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupProfileViewController.swift; sourceTree = "<group>"; };
+		FA79DA7B2702F3F100D55A51 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		FA79DA7D270486AB00D55A51 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		FA79DA7F2704959000D55A51 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA79DA812705C15F00D55A51 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
+		FAD9A0312705E74D00F6749A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAEEC0E32701994300C5AEF9 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEEC0E62701994300C5AEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEEC0E82701994300C5AEF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAEEC0EA2701994300C5AEF9 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FAEEC0EF2701994500C5AEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEEC0F42701994500C5AEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEEC0FA2701BF4300C5AEF9 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		FAEEC0FC2701D7EE00C5AEF9 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		FAEEC0FE2701DBFE00C5AEF9 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		FAEEC1002701EEBE00C5AEF9 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		FAEEC1022701F0FF00C5AEF9 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEEC0E02701994300C5AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA508390270E06EF0085AC02 /* Sign&Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9A0312705E74D00F6749A /* LoginViewController.swift */,
+				FA6E5A8C27071C09005840F9 /* SetupProfileViewController.swift */,
+				FAEEC0EA2701994300C5AEF9 /* AuthViewController.swift */,
+				FA79DA7F2704959000D55A51 /* SignUpViewController.swift */,
+			);
+			path = "Sign&Auth";
+			sourceTree = "<group>";
+		};
+		FA508393270E077E0085AC02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA508391270E07690085AC02 /* ListViewController.swift */,
+				FA508394270E07B40085AC02 /* MainTabBarController.swift */,
+				FA508396270E081A0085AC02 /* PeopleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA79DA792702F23100D55A51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA50838C270C68530085AC02 /* AddPhotoView.swift */,
+				FA79DA812705C15F00D55A51 /* OneLineTextField.swift */,
+				FA79DA7B2702F3F100D55A51 /* ButtonFormView.swift */,
+				FA79DA7A2702F24100D55A51 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA79DA7A2702F24100D55A51 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAEEC0FE2701DBFE00C5AEF9 /* UIColor + Extension.swift */,
+				FAEEC1022701F0FF00C5AEF9 /* UIImageView + Extension.swift */,
+				FAEEC1002701EEBE00C5AEF9 /* UILabel + Extension.swift */,
+				FAEEC0FA2701BF4300C5AEF9 /* UIButton + Extension.swift */,
+				FAEEC0FC2701D7EE00C5AEF9 /* UIFont + Extension.swift */,
+				FA79DA7D270486AB00D55A51 /* StackView + Extension.swift */,
+				FA50838E270DB5B90085AC02 /* SegmentedControl + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FAEEC0DA2701994300C5AEF9 = {
+			isa = PBXGroup;
+			children = (
+				FAEEC0E52701994300C5AEF9 /* IChat */,
+				FAEEC0E42701994300C5AEF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEEC0E42701994300C5AEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEEC0E32701994300C5AEF9 /* IChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEEC0E52701994300C5AEF9 /* IChat */ = {
+			isa = PBXGroup;
+			children = (
+				FAEEC0E62701994300C5AEF9 /* AppDelegate.swift */,
+				FAEEC0E82701994300C5AEF9 /* SceneDelegate.swift */,
+				FA508393270E077E0085AC02 /* Controllers */,
+				FA508390270E06EF0085AC02 /* Sign&Auth */,
+				FA79DA792702F23100D55A51 /* Extensions */,
+				FAEEC0EF2701994500C5AEF9 /* Assets.xcassets */,
+				FAEEC0F42701994500C5AEF9 /* Info.plist */,
+			);
+			path = IChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEEC0E22701994300C5AEF9 /* IChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEEC0F72701994500C5AEF9 /* Build configuration list for PBXNativeTarget "IChat" */;
+			buildPhases = (
+				FAEEC0DF2701994300C5AEF9 /* Sources */,
+				FAEEC0E02701994300C5AEF9 /* Frameworks */,
+				FAEEC0E12701994300C5AEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IChat;
+			productName = IChat;
+			productReference = FAEEC0E32701994300C5AEF9 /* IChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEEC0DB2701994300C5AEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FAEEC0E22701994300C5AEF9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FAEEC0DE2701994300C5AEF9 /* Build configuration list for PBXProject "IChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEEC0DA2701994300C5AEF9;
+			productRefGroup = FAEEC0E42701994300C5AEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEEC0E22701994300C5AEF9 /* IChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEEC0E12701994300C5AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEEC0F02701994500C5AEF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEEC0DF2701994300C5AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA508392270E07690085AC02 /* ListViewController.swift in Sources */,
+				FA79DA822705C15F00D55A51 /* OneLineTextField.swift in Sources */,
+				FA508395270E07B40085AC02 /* MainTabBarController.swift in Sources */,
+				FA79DA802704959000D55A51 /* SignUpViewController.swift in Sources */,
+				FAEEC0FD2701D7EF00C5AEF9 /* UIFont + Extension.swift in Sources */,
+				FA508397270E081A0085AC02 /* PeopleViewController.swift in Sources */,
+				FAEEC0EB2701994300C5AEF9 /* AuthViewController.swift in Sources */,
+				FA6E5A8D27071C09005840F9 /* SetupProfileViewController.swift in Sources */,
+				FAEEC1012701EEBE00C5AEF9 /* UILabel + Extension.swift in Sources */,
+				FA79DA7C2702F3F100D55A51 /* ButtonFormView.swift in Sources */,
+				FA50838D270C68530085AC02 /* AddPhotoView.swift in Sources */,
+				FAEEC0E72701994300C5AEF9 /* AppDelegate.swift in Sources */,
+				FAEEC1032701F0FF00C5AEF9 /* UIImageView + Extension.swift in Sources */,
+				FA50838F270DB5B90085AC02 /* SegmentedControl + Extension.swift in Sources */,
+				FAEEC0FF2701DBFE00C5AEF9 /* UIColor + Extension.swift in Sources */,
+				FAEEC0E92701994300C5AEF9 /* SceneDelegate.swift in Sources */,
+				FAEEC0FB2701BF4300C5AEF9 /* UIButton + Extension.swift in Sources */,
+				FAD9A0322705E74D00F6749A /* LoginViewController.swift in Sources */,
+				FA79DA7E270486AB00D55A51 /* StackView + Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEEC0F52701994500C5AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEEC0F62701994500C5AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEEC0F82701994500C5AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C27T948F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstapp.IChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEEC0F92701994500C5AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C27T948F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstapp.IChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEEC0DE2701994300C5AEF9 /* Build configuration list for PBXProject "IChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEEC0F52701994500C5AEF9 /* Debug */,
+				FAEEC0F62701994500C5AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEEC0F72701994500C5AEF9 /* Build configuration list for PBXNativeTarget "IChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEEC0F82701994500C5AEF9 /* Debug */,
+				FAEEC0F92701994500C5AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEEC0DB2701994300C5AEF9 /* Project object */;
+}
