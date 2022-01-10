@@ -9,7 +9,7 @@ import UIKit
 
 class AddPhotoView: UIView {
     
-    var circleImageView: UIImageView {
+    var circleImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.image = UIImage(named: "avatar")
@@ -18,24 +18,25 @@ class AddPhotoView: UIView {
         imageView.layer.borderColor = UIColor.black.cgColor
         imageView.layer.borderWidth = 1
         return imageView
-    }
+    }()
     
-    var plusButton: UIButton {
+    var plusButton: UIButton = {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
         let myImage = UIImage(named: "plus")
         button.setImage(myImage, for: .normal)
         button.tintColor = .buttonDark()
         return button
-    }
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         addSubview(circleImageView)
         addSubview(plusButton)
         setupCons()
-        
     }
+    
     private func setupCons(){
         NSLayoutConstraint.activate([
             circleImageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 0),

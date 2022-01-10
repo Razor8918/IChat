@@ -16,7 +16,7 @@ class MainTabBarController: UITabBarController {
         let peopleViewController = PeopleViewController()
         
         tabBar.tintColor = .purple
-        let boldConfig = UIImage.SymbolConfiguration(weight: .medium)
+        _ = UIImage.SymbolConfiguration(weight: .medium)
         let convImage = UIImage(systemName: "bubble.left.and.bubble.right")!
         let peopleImage = UIImage(systemName: "person.2")!
         
